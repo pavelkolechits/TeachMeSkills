@@ -1,0 +1,22 @@
+.main{
+    background-color:rgba(24, 245, 7, .2);
+    padding:10px ;
+}
+a{
+    text-decoration: none;
+    color: #666;
+    border: 2px solid ;
+    margin: 10px auto;
+    background-color: rgb(211, 202, 194);
+    font-size: 20px;
+    text-transform: uppercase;
+    scrollbar-darkshadow-color: sandybrown;
+}
+a:hover{
+    cursor:grabbing;
+}
+.img{
+    display: block;
+    width: 300px;
+
+}
