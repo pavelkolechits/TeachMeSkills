@@ -1,0 +1,170 @@
+.container {
+    width: 1400px;
+    margin: 0 auto;
+     
+}
+h2 {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    margin: 100px auto 0;
+    text-align: center;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 400;
+}
+.border {
+    border:1px solid #E72424;
+    margin: 25px auto 0;
+    width: 64px;
+}
+.element {
+    margin: 30px auto 0;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    color:#86878B
+}
+.info {
+    margin: 67px auto 108px;
+    display: flex;
+    justify-content: center;
+
+}
+.info-sections__icon1,
+.info-sections__icon2,
+.info-sections__icon3
+ {
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    border:1px solid #E72424;
+    border-radius: 50%;
+}
+.img {
+    display:block;
+    height: 30px;
+    width: 23px;
+    margin: 20px auto ;
+}
+.info-section_title1,
+.info-section_title2,
+.info-section_title3
+ {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+.info-section__text1,
+.info-section__text2,
+.info-section__text3
+ {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400; 
+    width: 360px; 
+    margin: 16px;
+}
+.info-sections2 {
+    margin: 0 32px;
+}
+ .sad {
+    /* height: 326px; */
+    width: 1400px;
+    height: 326px;
+    /* background: url(/repositories/TeachMeSkills/lesson3/images/img.png); */
+    background:
+     linear-gradient(rgba(0,0,0, 0.65),rgba(0,0,0,0.65)),
+     url(/repositories/TeachMeSkills/lesson3/images/img.png);
+}
+.h2 {
+    margin: 76px auto 0;
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    color: fff;
+    font-size: 36px;
+    font-weight: 400;
+    color:#fff;
+    width: 1400px;
+    text-align: center;
+}
+.border2{
+    border:1px solid #86878B;
+    margin: 25px;
+    width: 64px;
+    position: absolute;
+    margin-left: 668px;
+    margin-top: 164px;
+}
+.media-icon {
+    display: flex;
+    justify-content: center;
+   
+}
+.media {
+    background-color:#000;
+    width: 1400px;
+   
+}
+.typo{
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color:#86878B;
+    background:#000;
+    text-align: center;
+    font-weight: 400;
+    height: 27px; 
+  
+}
+i {
+    font-size: 23px;
+    color: #fff;
+    margin: 30px 10px 18px;
+}
+.uts {
+    color:#86878B;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin: 196px auto 0;
+    width: 1400px;
+    font-size: 16px;
+    text-align: center;
+}
+.batton{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    border:1px solid #fff;
+    text-align: center;
+    width: 83px;
+    padding: 11px 26px;
+    margin: 246px auto 0;
+    margin-left: 632px;
+}
+i:hover{
+    font-size: 24px;
+    margin: 30px 10px 16px;
+    color:#d14848;
+}
+.batton:hover {
+    background-color: rgba(130, 202, 175, 0.65);
+    border:1px solid #d14848;
+    transition:.3s;
+    color:#d14848;
+    cursor: pointer;
+}
+.footer
