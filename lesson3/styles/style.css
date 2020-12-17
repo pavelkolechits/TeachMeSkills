@@ -336,14 +336,141 @@ a{
     position: absolute;
     margin-top: 60px;
     outline: none;
+    /* ======================= */
 }
 .socialmedia{
    background-color:#F8EFEF;
    height: 110px;
+   
 }
 i.si__i{
     font-size: 42px;
     color:#86878B;
+}
+div.socialmedia-text__h3{
+    font-family:"Open Sans", serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:#333;
+    
+    
+}
 .socialmedia-text{
-    width: 394px;
+    width: 494px;
+    
+    
+}
+.socialmedia-icon{
+    width: 906px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.socialmedia{
+    display: inline-flex;
+    
+}
+.si__i{
+    margin: 0 30px;
+
+    
+}
+.socialmedia-icon__icons{
+    margin-right: 100px;
+   
+}
+.socialmedia-text__h3__lorem{
+    font-family: "Open Sans",sans-serif ;
+    font-size: 14px;
+    margin: 14px 0 14px 111px;
+    color: #86878B;
+    line-height: 150%;
+}
+.socialmedia-text__h3{
+    margin: 14px 0 14px 111px;
+     
+}
+/* =============================== */
+.tab-blocks__block1,
+.tab-blocks__block2,
+.tab-blocks__block3{
+    display: flex;
+    margin-bottom: 10px;
+
+
+}
+span.tab-blocks__block1__tab{
+    font-family:" Open Sans",sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 45px 35px;
+    background-color:rgba(236, 121, 121, 1);
+    display: block;
+    border-radius:4px;
+}
+.tab-blocks{
+    display: flex;
+    flex-direction: column;
+}
+.tab{
+    display: flex;
+    justify-content:start;
+}
+.tab-text{
+    width: 572px;
+}
+.tab-text__title{
+    margin-bottom: 58px;
+}
+.tab-text__text1{
+    margin-bottom: 30px;
+}
+.tab-text__text2{
+    margin-bottom: 70px;
+}
+span.tab-text__title__span{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color:#000;
+}
+span.tab-text__text1__span{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color:rgba(134, 135, 139, 1);
+    line-height: 140%;
+}
+span.tab-text__text2__span{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color:rgba(134, 135, 139, 1);
+    line-height: 140%;
+}
+span.tab-text__button_span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding: 11px 26px;
+    width: 83px;
+    background-color:#EC7979;
+    display: block;
+}
+.tab-blocks{
+    margin: 125px 111px 0;
+}
+.tab-text{
+    margin: 126px 50px 0px 0px;
+}
+.tab-img{
+    margin-top: 100px;
 }
