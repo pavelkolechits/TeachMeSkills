@@ -495,12 +495,13 @@ span.tab-text__button_span{
 .basic{
     display: flex;
     justify-content: center;
-    margin-top: 62px ;
+    margin-top: 64px ;
 }
 .basic-elem{
     width:340px;
     height: 467px;
-    background-color:#fff
+    background-color:#fff;
+    margin: 0 39px;
 }
 .basic-elem__prise{
     background-color:#333;
@@ -535,7 +536,77 @@ li.li-free{
     border-bottom:2px solid rgba(255, 255, 255, .5);
     letter-spacing: 2px;
 }
+.basic-elem__list_li{
+    text-align: center;
+    padding: 14px 0 14px;
+    border-top:2px solid #F5F5F5;
+    /* letter-spacing: 2px; */
+    color:#86878B;
+}
+/* ================================== */
 
+
+
+
+
+
+.saying-content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+
+
+}
+.saying-customers{
+    display: flex;
+    justify-content: center;
+    margin-top:22px;
+}
+.saying-text{
+    background-color:#E2E2E2;
+    border-radius:7px;
+    width: 298px;
+    height: 110px;
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878B;
+    padding-top: 25px;
+    margin: 67px auto 0;
+      
+}
+.saying-customers__pfoto,
+.saying-customers__name{
+    /* display: flex;
+    align-items: center; */
+    margin: 0 20px 0;
+}
+.saying{
+    margin: 0 63px 0;
+}
+span.name-customer{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #333;
+    display: flex;
+    width: 97px;
+    height: 27px;
+}
+span.manager-customer{
+    display: flex;
+    align-items: flex-end;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+    /* width: 59px; */
+    height: 19px;
+    margin: 10px 25px 0;
+
+}
 
 
 
