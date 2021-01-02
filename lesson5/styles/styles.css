@@ -3,6 +3,9 @@
 }
 .background{
     background-image: url(../images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
     max-width:1438px;
     height: 769px;
     display: flex;
