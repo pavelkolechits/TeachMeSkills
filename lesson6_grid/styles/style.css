@@ -337,22 +337,20 @@ ul{
     content: url(../images/icons/Rectangle.png);
     margin-right: 35px;
 }
-.ellipse__lagre,
-.ellipse__small{
-}
-.ellipse__small::before{
-    content: url(../images/per86.png);
-}
+
+
 .geo{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .7fr 1fr 1fr 1fr;
     grid-template-areas:
     "geo__title geo__country"
     "geo__russia geo__china"
     "geo__ukraine geo__usa"
     "geo__mongolia geo__other";
     padding: 25px;
+    column-gap:60px;
+    row-gap: 15px;
 }
 .geo__title{
     grid-area: geo__title;
@@ -360,6 +358,9 @@ ul{
 }
 .geo__country{
     grid-area: geo__country;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-end
 }
 .geo__russia{
     grid-area: geo__russia;
@@ -378,6 +379,10 @@ ul{
 }
 .geo__other{
     grid-area: geo__other;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 span.geo__title-span{
     font-family: 'Roboto', sans-serif;
@@ -391,6 +396,7 @@ span.geo__title-span{
 .country{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 8px;
 }
 .russia__span,
 .russia__prs{
@@ -400,5 +406,78 @@ span.geo__title-span{
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 1px;
+    text-transform: capitalize;
 }
- 
+.country__span{
+    font-family: 'Roboto', sans-serif;
+    color:#CACACA;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+   
+
+}
+.city__span{
+    font-family: 'Roboto', sans-serif;
+    color:#CACACA;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    display:block;
+    margin-bottom: 10px;  
+}
+.geo__country-inner{
+    display: flex;
+}
+.city__span,
+.russia__prs{
+    font-family: 'Roboto', sans-serif;
+    color:#979797;
+    font-weight: 500;
+    font-size: 12px;
+    
+    letter-spacing: 1px;
+}
+.reach{
+    padding: 25px 10px 25px 23px;
+    display: flex;
+}
+div.reach__inner{
+    position: absolute;
+    
+    display: inline-flex;
+
+}
+.ellipse__small{
+    margin: 7px 0px 0px 74px;
+    position: absolute;
+}
+.p14{
+    margin: 31px 0px 0px 94px;
+    position: absolute;
+}
+.p86{
+    margin: 67px 0px 0px 30px;
+    position: absolute;
+}
+.reach-span{
+    font-family: 'Roboto', sans-serif;
+    color:#CACACA;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1px; 
+    display: block;
+}
+.mobile__span{
+    font-family: 'Roboto', sans-serif;
+    color:#CACACA;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    display: block;
+    
+}
