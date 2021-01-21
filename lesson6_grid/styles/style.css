@@ -147,7 +147,8 @@ span.name{
 .photo:hover,.vector113:hover,
 .logo:hover,.group:hover,
 .total__checkbox:hover,
-.follower__checkbox:hover{
+.follower__checkbox:hover,
+.name:hover{
     cursor: pointer;
 }
 
