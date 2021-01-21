@@ -234,6 +234,7 @@ span.period{
     line-height: 14px;
     letter-spacing: 1px;
     display: block;
+    margin-left: -62px;
 }
 span.period::after{
     content:url(../images/Vector\ 113.png);
@@ -262,11 +263,7 @@ span.period::after{
     letter-spacing: 1px; 
     text-transform: capitalize; 
 }
-.checkboxs{
-    margin-right: 40px;
-    position: relative;
-    width: 100px;
-}
+
 
 .gender__color>span{
     font-family: 'Roboto', sans-serif;
@@ -532,7 +529,7 @@ div.reach__inner{
     border:1px solid #7F7FD5;
     border-radius:5px;
     position: absolute;
-    margin-left: -40px;
+    margin-left: -26px;
     display: block;
 }
 .total__span::after{
@@ -543,13 +540,23 @@ div.reach__inner{
     height: 16px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0px 0px 0px -75px;
+    margin: 0px 0px 0px -57px;
     
 }
 .total__checkbox:checked + .total__span::after{
     opacity: 0;
 }
-/* .follower__checkbox{
+.input1{
+    position: relative;
+    margin: 0px 50px 0px 0px;
+}
+.input2{
+    margin: 0px 36px 0px 0px;
+}
+.checboxs{
+    display: flex;
+}
+ .follower__checkbox{
     display: none;
 }
 .follower__span{
@@ -563,7 +570,7 @@ div.reach__inner{
     border:1px solid #E786D7;
     border-radius:5px;
     position: absolute;
-    margin-left: 0px 0px 0px 0px;
+    margin: 0px 0px 0px -27px;
     display: block;
 }
  .follower__span::after{
@@ -574,7 +581,7 @@ div.reach__inner{
     height: 16px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0px 0px 0px -61px;
+    margin: 0px 0px 0px -80px;
     
 }
 .follower__checkbox:checked + .follower__span::after{
@@ -583,8 +590,6 @@ div.reach__inner{
 .total__span{
     margin: 0px 27px 0px 0px;
 }
-.follower__span{
-    margin: 0px 0px 0px 0px;
-} */
+ 
 
 
