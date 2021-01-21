@@ -144,6 +144,13 @@ span.name{
 .photo{
     margin: 0 10px;
 }
+.photo:hover,.vector113:hover,
+.logo:hover,.group:hover,
+.total__checkbox:hover,
+.follower__checkbox:hover{
+    cursor: pointer;
+}
+
 .friends__top-span{
     font-family: 'Roboto', sans-serif;
     color:#CACACA;
@@ -255,12 +262,12 @@ span.period::after{
     letter-spacing: 1px; 
     text-transform: capitalize; 
 }
-.checboxs{
+.checkboxs{
     margin-right: 40px;
+    position: relative;
+    width: 100px;
 }
-.period{
-    margin-left: 150px;
-}
+
 .gender__color>span{
     font-family: 'Roboto', sans-serif;
     color:#CACACA;
@@ -310,6 +317,9 @@ span.period::after{
     display: flex;
     justify-content: end;
     border-radius:50px
+}
+.theme_selection:hover{
+    cursor: pointer;
 }
 .circular{
     width: 20px;
@@ -443,7 +453,7 @@ span.geo__title-span{
 }
 .reach{
     padding: 25px 10px 25px 23px;
-    display: flex;
+    /* display: flex; */
 }
 div.reach__inner{
     position: absolute;
@@ -456,12 +466,19 @@ div.reach__inner{
     position: absolute;
 }
 .p14{
-    margin: 31px 0px 0px 94px;
+    margin: 33px 0px 0px 97px;
     position: absolute;
 }
 .p86{
-    margin: 67px 0px 0px 30px;
+    margin: 64px 0px 0px 25px;
     position: absolute;
+}
+.p14,
+.p86{
+    font-family: "Roboto";
+    color:#fff;
+    font-weight: 600;
+    font-size: 12px;
 }
 .reach-span{
     font-family: 'Roboto', sans-serif;
@@ -469,15 +486,105 @@ div.reach__inner{
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     display: block;
+   
+    
 }
-.mobile__span{
+.mobile__span,
+.desktop__span{
     font-family: 'Roboto', sans-serif;
     color:#CACACA;
     font-weight: 600;
     font-size: 12px;
     line-height: 14px;
-    display: block;
+    margin-left: 5px;
+    letter-spacing: .5px;
+   
     
 }
+.reach__inner{
+    margin-top: 35px;
+}
+.reach__device{
+    margin: 35px 0px 0px 73px;
+    max-height: 40px;
+
+}
+.reach__device-desktop{
+    margin-bottom: 8px;
+    display: flex;
+    align-items:center;
+
+}
+.reach__device-mobile{
+    display: flex;
+    align-items:center;
+}
+.total__checkbox{
+    display: none;
+}
+.total__span::before{
+    content:"";
+    height: 16px;
+    width: 16px;
+    background-color:#282C31;
+    border:1px solid #7F7FD5;
+    border-radius:5px;
+    position: absolute;
+    margin-left: -40px;
+    display: block;
+}
+.total__span::after{
+    content: "";
+    background-image: url(../images/Vector111.png);
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 0px 0px -75px;
+    
+}
+.total__checkbox:checked + .total__span::after{
+    opacity: 0;
+}
+/* .follower__checkbox{
+    display: none;
+}
+.follower__span{
+    position: relative;
+}
+.follower__span::before{
+    content:"";
+    height: 16px;
+    width: 16px;
+    background-color:#282C31;
+    border:1px solid #E786D7;
+    border-radius:5px;
+    position: absolute;
+    margin-left: 0px 0px 0px 0px;
+    display: block;
+}
+ .follower__span::after{
+    content: "";
+    background-image: url(../images/Vector111.png);
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 0px 0px -61px;
+    
+}
+.follower__checkbox:checked + .follower__span::after{
+    opacity: 0;
+} 
+.total__span{
+    margin: 0px 27px 0px 0px;
+}
+.follower__span{
+    margin: 0px 0px 0px 0px;
+} */
+
+
