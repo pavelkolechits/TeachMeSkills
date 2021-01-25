@@ -1,0 +1,100 @@
+
+.main_contant{
+    display: grid;
+    grid-template-columns:3.5fr 3.5fr 6.4fr  .6fr .6fr 6.4fr ;
+    grid-template-rows:1fr 1.5fr 2.2fr 2.2fr ;
+    grid-template-areas:
+    "statistics statistics statistics statistics statistics statistics"
+    "friends friends visitors visitors followers followers"
+    "audience audience audience audience audience reach"
+    "gender gender gender geo geo geo";
+    gap:31px;
+    padding:0 45px 45px 45px;
+    border-radius:0 14px 14px 0;
+}
+.friends,
+.visitors,
+.followers,
+.audience,
+.reach,
+.gender,
+.geo{
+    background-color:$secondary-color;
+    border-radius:13px;
+    
+}
+.statistics{
+    grid-area:statistics ;
+    display: flex;
+    align-items:center;
+    padding-top: 32px;
+    justify-content: space-between;
+    .statistics__search{
+        display:flex;
+        flex-wrap: wrap;
+        align-items:center;
+        .statistics__search-span{
+            font-family: $font-family;
+            color:$font-color;
+            font-size: 30px;
+            line-height: 36px;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            margin-right: 75px;
+        }
+        input{
+            background-color:$primary-color;
+            border: none;
+            outline: none;
+            width: 153px;
+            height: 32px;
+            border: 1px solid $border-color;
+            border-radius: 8px;
+            padding-left: 34px;
+            color:#979797;
+        }
+        form::before{
+            content:url(../images/Vector.png);
+            margin: 5px -30px 0 0;
+            color:#979797;
+            position: relative;
+        }
+        .notification{
+            margin-left: 25px;
+            display: flex;
+            align-items:center; 
+        }
+    }
+    .statistics__account{
+        display: flex;
+        align-items:center;
+        .photo{
+            margin: 0 10px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
+.friends{
+    @include gridItem(friends);
+}
+.visitors{
+    @include gridItem(visitors); 
+}
+.followers{
+    @include gridItem(followers); 
+}
+.audience{
+    @include gridItem(audience); 
+}
+.reach{
+    @include gridItem(reach); 
+}
+.gender{
+    @include gridItem(gender); 
+}
+.geo{
+    @include gridItem(geo); 
+}
+

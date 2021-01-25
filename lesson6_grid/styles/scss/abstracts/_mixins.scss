@@ -1,0 +1,43 @@
+@mixin flexCenter {
+    display: flex;
+    justify-content:center;
+}
+@mixin flexSB {
+    display: flex;
+    justify-content: space-between;
+}
+@mixin flexAIC {
+    display: flex;
+    align-items: center;
+}
+@mixin flexColSB {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@mixin titleStyles {
+    font-family: $font-family;
+    color:$color-color;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1px;  
+}
+@mixin subtitleStyles {
+    font-family: 'Roboto', sans-serif;
+    color:$color-color;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: .5px;
+}
+@mixin percentStyle {
+    font-family: 'Roboto', sans-serif;
+    color:#979797;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+@mixin gridItem ($item) {
+    border:1px solid $border-color;
+    grid-area:$item;
+}

@@ -1,0 +1,23 @@
+@import "scss/abstracts/variables";
+@import "scss/abstracts/mixins";
+@import "scss/layout/nav";
+@import "scss/layout/main_contant";
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+   
+}
+.content{
+    max-width: 1280px;
+    height: 880px;
+    background-color:$secondary-color;
+    display:grid;
+    grid-template-columns: 1fr 11.8fr;
+    margin:100px auto ;
+    column-gap:5px;
+    border-radius:14px;
+}
